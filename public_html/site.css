@@ -1,0 +1,328 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-mar-2016, 8.34.51
+    Author     : luca
+*/
+
+/*Importo i web fonts*/
+/*font-family: 'Segment7Standard';*/
+@import url(https://fontlibrary.org/face/segment7);
+/*font-family: 'Teleindicadores1Regular';*/
+@import url(https://fontlibrary.org/face/teleindicadores-1);
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300,300italic,400italic,500italic,700italic);
+/*font-family: jacky*/
+@import "fonts/jacky.fnt.css";
+
+
+body {
+    font-family: Verdana,Serif;
+    font-size: 12px;
+    /* background-color: #BFDDFB; */
+    background: #EAFAFF url('img/sfondo.png') repeat-x;
+    border-top: 3px solid #85B0E4;
+    margin: 0px;
+    text-align: center;
+}
+
+#topbar{
+    display:table;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    height: 39px;
+    width: 100%;
+    border-top: 3px solid #85B0E4;
+    border-bottom: 1px solid #00A3D9;
+    
+ }
+ 
+.page{
+    margin: auto;
+    margin-top: 40px;
+    width: 1140px;
+    /*height: 3000px;*/
+    border: solid #ccc 1px;
+    border-top: none;
+    background-color: #ffffff;
+    padding-bottom: 5px;
+}
+
+footer, nav, header, #page{
+    width: 1134px;
+    margin: auto; 
+}
+
+#page{
+    display: table;
+    height: 500px;
+}
+
+header{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+nav{
+    background-color: #fff;
+    border-bottom: 1px solid #6699ff;
+    border-top: 1px solid #ddd;
+    height: 33px;
+}
+
+
+/* 
+    elementi di design
+*/
+#clock{
+    font-family: 'Teleindicadores1Regular';
+    font-size:15px;
+    font-weight: normal; 
+    font-style: normal; 
+    vertical-align: middle;
+}
+
+article header{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.small {
+    font-size: 8pt;
+}
+
+
+/*
+    elementi della topbar
+*/
+#topbar .minilogo{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 5px;
+    width: 144px;
+    border-right: 1px solid #eeeeee ;
+ }
+
+ #topbar .content{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 5px;
+ }
+
+#topbar img{
+    vertical-align: middle;
+}
+
+
+/*
+    elementi della top nav
+*/
+
+#topnav{
+    height: 31px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    color: #ff9900;
+    /*background-color: #BFEFFF;*/
+}
+
+#topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+#topnav li {
+    float: left;
+    /*border-right: 1px dotted #6699ff;*/
+}
+
+#topnav li:last-child {
+    border-right: none;
+    border-left: 1px dotted #6699ff;
+}
+
+#topnav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#topnav li a:hover {
+    background-color: #BFEFFF;
+    border-bottom: 2px solid #6699ff;
+}
+
+#topnav .active {
+    background-color: #DFEFF4;
+    font-weight: bold;
+    border-bottom: 2px solid #6699ff;
+}
+
+
+/*
+    elementi della pagina
+*/
+#page .coll1{
+    display: table-cell;
+    border: none;
+    border-right: 1px dotted #6699ff;
+    width: 220px;
+}
+
+#page .coll2{
+    display: table-cell;
+}
+
+#page .coll2 .row1{
+    border-bottom: 1px dotted #6699ff;
+    width: 914px;
+}
+
+#page .coll2 .row2{
+    display: table;
+    height: 100%;
+}
+
+#page .coll2 .row2 aside{
+    display: table-cell;
+    width: 176px;
+    border-left: 1px dotted #6699ff;    
+}
+
+#page .coll2 .row2 section{
+    display: table-cell;
+    width: 738px;
+}
+
+/*
+    elementi del footer
+*/
+footer #info{
+    border: 1px solid #ff9900;
+    border-radius: 15px;
+    padding: 0px;
+    height: 226px;
+    display:table;
+    width: 1132px;
+    margin-bottom: 8px;
+}
+
+footer #info .organizzation{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5px;
+    width: 256px;
+    border-right: 1px dotted #ff9900 ;
+ }
+ 
+footer #info .sitemap{
+     display:table-cell;
+}
+ 
+footer #stats{
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    height: 28px;
+    font-size:8pt;
+    color: #3366FF;
+    font-family: jacky;
+    font-weight: bold;
+    display:table;
+    width: 1132px; 
+    margin-bottom: 8px;
+}
+
+footer #stats .cell1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer #stats .cell2{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 7pt;
+}
+
+footer #stats .cell2 img{
+    vertical-align: middle;
+}
+
+.icon{
+    margin-left: 60px;
+    margin-right: 5px;
+}
+
+footer #tecnologies{
+    border-top: 2px solid #6699ff;
+    border-bottom: 2px solid #6699ff;
+    height: 32px;
+    width: 1132px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    display:table-cell;
+    color: #ff9900;
+}
+
+footer #copy{
+   text-align: left;
+   color: #666;
+   font-size: 11px;
+   line-height: 15px;
+   padding: 5px;
+   display: table;
+}
+
+footer #copy .credits{
+    display: table-cell;
+    border-right: 1px dotted #6699ff;
+    vertical-align: top;
+    width: 832px;
+}
+
+footer #copy .credits .credits_tools{color: #ff9900;}
+
+footer #copy .credits a:link{
+    color: #6699ff;
+    text-decoration:none;
+}
+
+footer #copy .credits a:visited{ 
+    text-decoration:line-through;
+    color: #6699ff;
+}
+
+footer #copy .credits a:hover { 
+    font-weight:bold;text-decoration:underline;
+    color: #6699ff;
+}
+
+footer #copy .credits a:active { 
+    font-weight:bold;text-transform: uppercase;
+    color: #6699ff;
+}
+
+footer #copy .stats{
+    display: table-cell;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer #copy .stats img {
+    vertical-align: middle;
+}
+
+footer #tecnologies img{
+    vertical-align: middle;
+}
