@@ -39,8 +39,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/agpl-3.0.html
         <link href="favicon.ico" rel="shortcut icon"/>
         <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
         
-        <link href="site.css" rel="stylesheet" type="text/css" media="screen"/>
-        
+        <link href="hzgrid.css" rel="stylesheet" type="text/css"/>
+        <link href="site.css" rel="stylesheet" type="text/css"/>
+                
         <script src="js/clock.js"></script>
     </head>
     <body onload="loadtime()">
@@ -55,12 +56,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/agpl-3.0.html
             </div>
         </div>
         
-        <div class="page">
-            <header>
-                <img src="img/logo_h0model.png" alt=""/>
+        <div class="hzgrid-container page">
+            
+            <header class="row">
+                <div id="logo" class="col-24">
+                    <img src="img/logo_h0model.png" alt=""/>
+                </div>
             </header>
-            <nav>
-                <div id="topnav">
+            
+            <nav class="row">
+                <div id="topnav" class="col-24">
                     <ul>
                         <li><a class="active" href="#home">Home</a></li>
                         <li><a href="#annunci">Annunci</a></li>
@@ -76,23 +81,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/agpl-3.0.html
                     </ul>
                 </div>
             </nav>
-
-            <div id="page">
-                <nav class="coll1">navigazione</nav>
-                <div class="coll2">
-                     <header class="row1">
-                        Titolo
-                    </header>
+            
+            <article id="page" class="row">
+                <nav class="col-4 coll1">navigazione</nav>
+                <div class="col-20 coll2">
+                    
+                    <div class="row row1">
+                        <header class="col-24">
+                            Titolo
+                        </header>
+                    </div>
+                    
                     <section class="row2">
-                         <section>
-                             pagina
-                         </section>
-                         <aside>
-                             colonna
-                         </aside>
+                        <section class="col-16">
+                            pagina
+                        </section>
+                        <aside class="col-4">
+                            colonna
+                        </aside>
                     </section>
                 </div>
-            </div>
+            </article>
 
             <footer>
                 <section id="stats">

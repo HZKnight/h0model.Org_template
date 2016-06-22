@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-giu-2016, 9.43.21
+    Author     : lucaliscio
+*/
+
+.outline, .outline *{
+        outline: 1px solid #66b3ff; 
+}
+
+[class*='col-'] {
+    background-color: #e6ffff;
+}
+
+/*-- some extra column content styling --*/
+[class*='col-'] > p {
+    background-color: #66b3ff; 
+    color: white; 
+}

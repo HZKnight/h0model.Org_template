@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : luca
 */
 
- .grid-container{
+    .hzgrid-container{
         width: 100%; 
         max-width: 1200px;
         margin: auto;
@@ -28,7 +28,6 @@ and open the template in the editor.
         width: 16.66%; 
         /*-- our gutter -- */
         /*padding: 12px;*/ 
-        background-color: #e6ffff;
     }
 
     .col-1{ width: 4.166%; }
@@ -57,17 +56,11 @@ and open the template in the editor.
     .col-24{ width: 100%; }
     
 
-    .outline, .outline *{
-        outline: 1px solid #66b3ff; 
-    }
-
     /*-- some extra column content styling --*/
     [class*='col-'] > p {
-        background-color: #66b3ff; 
         padding: 0;
         margin: 5px;
         text-align: center; 
-        color: white; 
     }
     
     

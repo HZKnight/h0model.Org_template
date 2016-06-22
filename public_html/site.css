@@ -44,7 +44,6 @@ body {
 .page{
     margin: auto;
     margin-top: 40px;
-    width: 1140px;
     /*height: 3000px;*/
     border: solid #ccc 1px;
     border-top: none;
@@ -52,13 +51,13 @@ body {
     padding-bottom: 5px;
 }
 
-footer, nav, header, #page{
+footer{
     width: 1134px;
     margin: auto; 
 }
 
 #page{
-    display: table;
+    border:none;
     height: 500px;
 }
 
@@ -88,6 +87,7 @@ nav{
 
 article header{
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0px;
 }
 
 .small {
@@ -173,35 +173,27 @@ article header{
     elementi della pagina
 */
 #page .coll1{
-    display: table-cell;
     border: none;
     border-right: 1px dotted #6699ff;
-    width: 220px;
 }
 
 #page .coll2{
-    display: table-cell;
 }
 
 #page .coll2 .row1{
     border-bottom: 1px dotted #6699ff;
-    width: 914px;
 }
 
 #page .coll2 .row2{
-    display: table;
     height: 100%;
 }
 
 #page .coll2 .row2 aside{
-    display: table-cell;
-    width: 176px;
     border-left: 1px dotted #6699ff;    
 }
 
 #page .coll2 .row2 section{
-    display: table-cell;
-    width: 738px;
+
 }
 
 /*
