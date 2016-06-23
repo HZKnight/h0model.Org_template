@@ -51,19 +51,8 @@ body {
     padding-bottom: 5px;
 }
 
-footer{
-    width: 1134px;
-    margin: auto; 
-}
-
-#page{
-    border:none;
-    height: 500px;
-}
-
 header{
     text-align: left;
-    margin-bottom: 15px;
 }
 
 nav{
@@ -173,15 +162,17 @@ article header{
     elementi della pagina
 */
 #page .coll1{
-    border: none;
-    border-right: 1px dotted #6699ff;
+    /*border-right: 1px dotted #6699ff;*/
+    padding: 5px;
 }
 
 #page .coll2{
+    border-left: 1px dotted #6699ff;
 }
 
 #page .coll2 .row1{
     border-bottom: 1px dotted #6699ff;
+    padding: 5px;    
 }
 
 #page .coll2 .row2{
@@ -190,10 +181,6 @@ article header{
 
 #page .coll2 .row2 aside{
     border-left: 1px dotted #6699ff;    
-}
-
-#page .coll2 .row2 section{
-
 }
 
 /*
@@ -229,19 +216,16 @@ footer #stats{
     font-size:8pt;
     color: #3366FF;
     font-family: jacky;
-    font-weight: bold;
-    display:table;
-    width: 1132px; 
-    margin-bottom: 8px;
+    font-weight: bold; 
+    margin: 5px;
+    margin-bottom: 8px;    
 }
 
 footer #stats .cell1{
-    display: table-cell;
     vertical-align: middle;
 }
 
 footer #stats .cell2{
-    display: table-cell;
     vertical-align: middle;
     font-size: 7pt;
 }
@@ -317,4 +301,14 @@ footer #copy .stats img {
 
 footer #tecnologies img{
     vertical-align: middle;
+}
+
+/* 
+    Tipografy 
+*/
+
+/* Generic */
+h1{
+    margin:0px;
+    padding:0px;
 }
