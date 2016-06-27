@@ -26,8 +26,6 @@ and open the template in the editor.
         float: left; 
         min-height: 1px; 
         width: 16.66%; 
-        /*-- our gutter -- */
-        /*padding: 12px;*/ 
     }
 
     .col-1{ width: 4.166%; }
@@ -60,7 +58,8 @@ and open the template in the editor.
     [class*='col-'] > p {
         padding: 0;
         margin: 5px;
-        text-align: center; 
+        text-align: center;
+        vertical-align: middle;
     }
     
     

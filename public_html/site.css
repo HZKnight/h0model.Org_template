@@ -191,8 +191,9 @@ footer #info{
     border-radius: 15px;
     padding: 0px;
     height: 226px;
-    display:table;
-    width: 1132px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 8px;
 }
 
@@ -221,16 +222,13 @@ footer #stats{
     margin-bottom: 8px;    
 }
 
-footer #stats .cell1{
+footer #stats .cell{
+    height: 18px;
     vertical-align: middle;
+    line-height: 18px;
 }
 
-footer #stats .cell2{
-    vertical-align: middle;
-    font-size: 7pt;
-}
-
-footer #stats .cell2 img{
+footer #stats img{
     vertical-align: middle;
 }
 
