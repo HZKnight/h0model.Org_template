@@ -314,3 +314,7 @@ h1{
     box-pack:center;
     box-align:center;
 }
+
+.testo_notizia{
+    text-align: justify;
+}

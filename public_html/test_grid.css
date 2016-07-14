@@ -20,4 +20,5 @@ and open the template in the editor.
 [class*='col-'] > p {
     background-color: #66b3ff; 
     color: white; 
+    text-align: center;
 }

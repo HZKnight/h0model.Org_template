@@ -58,7 +58,6 @@ and open the template in the editor.
     [class*='col-'] > p {
         padding: 0;
         margin: 5px;
-        text-align: center;
         vertical-align: middle;
     }
     
