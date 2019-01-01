@@ -17,10 +17,11 @@ and open the template in the editor.
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300,300italic,400italic,500italic,700italic);
 /*font-family: jacky*/
 @import "fonts/jacky.fnt.css";
-
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-    font-family: Verdana,Serif;
+    font-family: Montserrat,Serif;
     font-size: 12px;
     /* background-color: #BFDDFB; */
     background: #EAFAFF url('img/sfondo.png') repeat-x;
